@@ -67,51 +67,54 @@ El motor de asignación calcula la **“eficiencia ponderada”** de cada trabaj
 
 Efficiency = (skillMatch * 0.4) + (performanceScore * 0.3) + (1 - queueLoad) * 0.3;
 El sistema elige automáticamente al trabajador con mayor eficiencia para cada nueva tarea disponible.
-☁️ Infraestructura en Azure
 
-Azure SQL Database: Persistencia relacional.
+---
+### ☁️ Infraestructura en Azure
 
-Azure App Service: Hospedaje del backend .NET.
+- Azure SQL Database: Persistencia relacional.
 
-Azure Blob Storage: Almacenamiento de evidencias (imágenes, documentos).
+- Azure App Service: Hospedaje del backend .NET.
 
-Azure Notification Hub: Envío de notificaciones push.
+- Azure Blob Storage: Almacenamiento de evidencias (imágenes, documentos).
 
-SignalR Service: WebSockets administrados para comunicación en tiempo real.
+- Azure Notification Hub: Envío de notificaciones push.
 
+- SignalR Service: WebSockets administrados para comunicación en tiempo real.
+---
 ### 🔄 Roadmap
 
- API base de usuarios y autenticación JWT.
+ - API base de usuarios y autenticación JWT.
 
- Módulo de creación y asignación de tareas.
+ - Módulo de creación y asignación de tareas.
 
- Integración con Azure SQL.
+ - Integración con Azure SQL.
 
- Implementación completa de WebSockets (SignalR).
+ - Implementación completa de WebSockets (SignalR).
 
- Dashboard avanzado de métricas.
+ - Dashboard avanzado de métricas.
 
- Integración de IA para predicción de carga laboral.
+ - Integración de IA para predicción de carga laboral.
 
- Modo offline para la app móvil.
-
+ - Modo offline para la app móvil.
+---
 ### 💼 Autor y Equipo
 
-Proyecto académico y empresarial desarrollado por el equipo de TaskControl, con visión de escalar hacia un SaaS de gestión operativa inteligente.
+- Proyecto académico y empresarial desarrollado por el equipo de TaskControl, con visión de escalar hacia un SaaS de gestión operativa inteligente.
 
-Frontend: Flutter
+- Frontend: Flutter
 
-Backend: ASP.NET Core (C#)
+- Backend: ASP.NET Core (C#)
 
-Database: Azure SQL
+- Database: Azure SQL
 
-Realtime: SignalR
+- Realtime: SignalR
 
-Infraestructura: Azure Cloud
+- Infraestructura: Azure Cloud
 
+---
 ### 🧾 Licencia
 
 Este proyecto se distribuye bajo licencia MIT License.
 Puedes usarlo, modificarlo y desplegarlo libremente con atribución al autor original.
-
+---
 © 2025 TaskControl — Intelligent Task Management for Enterprises
